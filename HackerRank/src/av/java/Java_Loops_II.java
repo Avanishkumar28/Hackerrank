@@ -1,7 +1,6 @@
 package av.java;
 
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class Java_Loops_II {
 
