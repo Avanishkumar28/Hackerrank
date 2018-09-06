@@ -5,8 +5,7 @@ public class SuperNumber {
 	public static int getSuperNumber(int num) {
 		if(num<10 && num>0)
 			return num;
-		int temp = num;
-		temp = num%10;
+		int temp = num%10;
 		num = temp+getSuperNumber(num/10);
 		
 		return getSuperNumber(num);
@@ -18,6 +17,7 @@ public class SuperNumber {
 		System.out.println(getSuperNumber(12345));
 		
 		System.out.println(getSuperNumber(99999));
+		System.out.println(getSuperNumber(939398979));
 
 	}
 
