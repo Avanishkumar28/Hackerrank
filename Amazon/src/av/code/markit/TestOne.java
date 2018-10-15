@@ -1,4 +1,4 @@
-package av.code.marit;
+package av.code.markit;
 
 public class TestOne {
 
